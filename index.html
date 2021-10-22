@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+    <style>
+        #main {
+            position: absolute;
+            text-align: center;
+            margin: 2.5% 30% 2.5% 30%;
+            border: 5px solid black;
+            width: 40%;
+            height: 90%;
+            box-shadow: 0 0 10px black;
+            background-color: rgb(32, 224, 215);
+        }
+        table {
+            margin-left: 50px;
+            line-height: 20px;
+            border: 2px solid black;
+            width: 80%;
+            font-size: 18px;
+            padding-bottom: 30px;
+        }
+        tr {
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <form>
+            <table>
+                <h1>Registration Form</h1>
+                <tr>
+                    <th><label>Name : 
+
+
+                    </label></th>
+                    <th><input type="text"></th>
+                    
+                    
+                </tr>
+                <tr>
+                    <th>Last Name : 
+
+                           
+                    </th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <th>Email Address : </th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <th>Gender : </th>
+                    <th><input name="gender" type="radio"> <label>Male</label><input name="gender" type="radio"> <label>Female</label></th>
+                </tr>
+                <tr>
+                    <th>Create password : </th>
+                    <th><input type="password"></th>
+                </tr>
+                <tr>
+                    <th>Confirm password : </th>
+                    <th><input type="password"></th>
+                </tr>
+                <tr aria-rowspan="2">
+                    <th>Address : </th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <th>Mobile No. : </th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <th>Topics you want : </th>
+                    <th>
+                        <input type="checkbox"><label>html </label> 
+                        <input type="checkbox"><label>CSS </label> 
+                        <input type="checkbox"><label>React </label>
+                        <input type="checkbox"> <label>JS</label> 
+                    </th>
+                    
+                </tr>
+                
+            </table>
+
+            <div style="margin-top: 20px; line-height: 2px;">
+                <input style="padding: 5px 20px; background-color: skyblue; box-shadow: 0 0 5px black;" type="reset">
+                <button style="background-color: skyblue; padding: 5px 20px; box-shadow: 0 0 5px black;">Submit</button><br>
+                <p>Already have a Account? </p>
+            </div>
+            <div>
+                <button style="background-color: rgb(232, 243, 29); color: white; padding: 5px 200px; font-size: 15px; box-shadow: 0 0 5px black;"><a href="login.html">Login</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
